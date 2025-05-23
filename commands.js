@@ -19,13 +19,13 @@ const commands = [
   },
 ];
 
-const rest = new REST({ version: '10' }).setToken(process.env.SECRET_TOKEN); 
+const rest = new REST({ version: '10' }).setToken(process.env.SECRET_TOKEN); // this can cause error idk why just paste the seceret key from env to run 
 
 (async () => {
     try {
     console.log('Started refreshing application (/) commands.');
 
-    await rest.put(Routes.applicationCommands(process.env.CANDIDATE_KEY), { body: commands });
+    await rest.put(Routes.applicationCommands(process.env.CANDIDATE_KEY), { body: commands });  // same with this 
 
     console.log('Successfully reloaded application (/) commands.');
     } catch (error) {
