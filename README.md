@@ -68,7 +68,10 @@ Then goto the bot, it will automatically register the `/cap` command. You can us
 
 ## Usage
 Simply type /cap and attach an image to get a caption back.
-![input](results/input.jpg) ![output](results/output.jpg)
+### INPUT: 
+![input](results/input.png) 
+### OUTPUT: 
+![output](results/output.png)
 
 ---
 🧑‍💻 Happy Experimenting! 🔬
