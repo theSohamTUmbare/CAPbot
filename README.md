@@ -6,7 +6,7 @@ CAPbot is a lightweight Discord bot that leverages a PyTorch-based image caption
 
 ## 🛠️ Update!!!
 
-I have added my new Captioning Model - DETR_powered_Captioning to the default `/cap` command CAPbot. This model is more powerful than the previous LSTM captioning model. You can discover the model and it near sota results on the [DETR_powered_Image_Captioning](https://github.com/theSohamTUmbare/DETR_powered_image_captioning) repo!
+I have added my new Captioning Model - DETR_powered_Captioning to the default `/cap` command CAPbot. This model is more powerful than the previous LSTM captioning model. You can discover the model and it near sota results on the [DETR_powered_Image_Captioning](https://github.com/theSohamTUmbare/DETR_powered_image_captioning) repo! </br>
 You can still use the previous LSTM powered image captioning model by the command `/cap_v1`!
 
 ---
